@@ -1,14 +1,9 @@
-import "./App.css";
-import TaskBar from "./TaskBar";
+import { RouterProvider } from "react-router-dom";
 
-import styles from "./App.module.scss";
+import { router } from "./router";
 
 const App = () => {
-  return (
-    <div className={styles.wrapper}>
-      <TaskBar />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
