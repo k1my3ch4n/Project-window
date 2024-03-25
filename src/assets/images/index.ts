@@ -1,1 +1,3 @@
-export { ReactComponent as Window } from "./window.svg";
+import Window from "./window.svg?react";
+
+export { Window };

@@ -1,6 +1,5 @@
 /// <reference types="vite/client" />
-
-declare module "@images";
+/// <reference types="vite-plugin-svgr/client" />
 
 declare module "*.svg" {
   import React = require("react");
@@ -9,8 +8,6 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
-
-declare const context: jest.Describe;
 
 interface ImportMetaEnv {
   readonly VITE_URI?: string;
