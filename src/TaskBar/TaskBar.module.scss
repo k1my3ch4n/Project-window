@@ -15,5 +15,9 @@
     align-items: center;
 
     margin: 10px;
+
+    & > svg {
+      margin-right: 10px;
+    }
   }
 }

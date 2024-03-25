@@ -1,4 +1,4 @@
-import { Window } from "../assets/images";
+import { Explorer, Window } from "../assets/images";
 import styles from "./TaskBar.module.scss";
 
 const TaskBar = () => {
@@ -6,6 +6,7 @@ const TaskBar = () => {
     <div className={styles.wrapper}>
       <div className={styles.window}>
         <Window />
+        <Explorer />
       </div>
     </div>
   );
